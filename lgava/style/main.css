@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: blueviolet;
+    height: 556px;
+}
+.heder_iner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.container{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: rgb(249, 250, 252);
+}
+li{
+    margin-left: 100px;
+}
+.header_header_logo{
+    width: 50%;
+}
+li:hover{
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgba(100, 58, 121, 1);
+}
+.text_header_container1{
+    color: white;
+    width: 800px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    margin-left: 500px;
+    margin-top: 90px;
+}
+.heder_container{
+    width: 500px;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 220, 20);
+    box-shadow: 0 6px 2px rgb(51, 43, 43);
+    margin-left: 630px;
+    margin-top: 50px;
+}
+.heder_container:active{
+    background-color:blue;
+}
+.header2{
+    background-color: rgba(23, 194, 164, 1);
+    height: 747px;
+}
+.p_text_header2_container2{
+    color: white;
+    text-align: center;
+    padding-top: 119px;
+}
+.text_heder2_iner_top{
+    color: white;
+    text-align: center;
+    margin-top: 21px;
+    font-size: 22px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line_header2_container2{
+    background-color: rgba(0, 0, 0, 1);
+    height: 4px;
+    width: 87px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+}
+.nike_png{
+    width: 200px;
+    height: 124px;
+}
+.xpen{
+    width: 120px;
+    height: 124px; 
+}
+.starbaks{
+    width: 200px;
+    height: 124px;
+}
+.img_png_magazin_header2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.p{
+    text-align: center;
+}
+.text-magazin{
+    display: flex;
+    justify-content: space-around;
+}
+.Branding{
+    width: 300px;
+    color: white;
+}
+.Design{
+    width: 300px;
+    color: white;
+}
+.Development{
+    width: 300px;
+    color: white;
+}
+.ROCKET_SCIENCE{
+    width: 300px;
+    color: white;
+}
+.h1_magazin{
+    margin-top: 50px;
+}
+.h3_magazin{
+    margin-top: 30px;
+}
+.team{
+    height: 914px;
+    background-color: rgba(231, 241, 248, 1);
+}
+.p_text_team_container3{
+    text-align: center;
+    padding-top: 119px;
+}
+.line_team_container3{
+    background-color: rgba(0, 0, 0, 1);
+    height: 4px;
+    width: 87px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+}
+.text_team_container3{
+    text-align: center;
+    margin-top: 20px;
+}
+.ava-compaion1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.compainon_team{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.compainon1_team{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+.txt_1c{
+    margin-top: 10px;
+}
+.txt_1cb{
+    margin-top: 15px;
+    color: aqua;
+}
+.compainon2_team{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+.compainon3_team{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+.compainon4_team{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+.masengers{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.fb{
+    margin-left: 10px;
+}
+.link{
+    margin-left: 10px;
+}
+.twiter{
+    margin-left: 10px;
+}
+.skills{
+    height: 665px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.txt{
+    width: 700px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.WE_GOT_SKILLS{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.img_WE_im{
+    width: 168px;
+    height: 179px;
+}
+.txt_WE{
+    margin-top: 30px;
+    text-align: center;
+}
+.portofilo{
+    background-color: rgba(255, 221, 153, 1);
+}
+.navodka_portofino{
+    background-color: rgba(0, 0, 0, 0.0784313725490196);
+    border: none;
+    width: 84px;
+    height: 38px;
+}
+.navodka_portofino:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+.button_portofino{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.navodka_portofino{
+    margin-left: 15px;
+}
+.compuyer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.img_compuyr{
+    margin-left: 100px;
+}
+.xleb{
+    background-color: aquamarine;
+    color: white;
+    font-size: 10px;
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+.Testimonials{
+    background-color: rgba(215, 70, 128, 1);
+}
+.container6{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.ROzavaa_xrenm{
+    display:flex;
+flex-wrap:wrap;
+}
+.txt_raza{
+    width: 700px;
+}
+.gh{
+    display: flex;
+    flex-wrap:nowrap ;
+}
